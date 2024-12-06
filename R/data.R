@@ -9,6 +9,7 @@
 #'   abundance meta data available at \url{https://irma.nps.gov/NPSpecies/Lookup/GetAbundanceMetadata};
 #'   NPS tag meta data available at \url{https://irma.nps.gov/NPSpecies/Lookup/GetNPSTagsMetadata};
 #'   The number of columns depend on the search level you defined.
+#'   Last updated 12/06/2024.
 "nps_plants"
 
 #' National Park Units' bird lists
@@ -22,4 +23,5 @@
 #'   abundance meta data available at \url{https://irma.nps.gov/NPSpecies/Lookup/GetAbundanceMetadata};
 #'   NPS tag meta data available at \url{https://irma.nps.gov/NPSpecies/Lookup/GetNPSTagsMetadata};
 #'   The number of columns depend on the search level you defined.
+#'   Last updated 12/06/2024.
 "nps_birds"

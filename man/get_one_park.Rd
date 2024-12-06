@@ -7,29 +7,30 @@
 get_one_park(parkcode = "ACAD", categcode = 11, searchlevel = 3)
 }
 \arguments{
-\item{parkcode}{four digits code for parks from `rnpsp::get_nps_code()$UnitCode`.}
+\item{parkcode}{four digits code for parks from \code{rnps::get_nps_code()$UnitCode}.}
 
-\item{categcode}{taxa groups code from `rnpsp::get_taxa_code()$Id`.
-   Id                  Name
-1   1               Mammals
-2   2                 Birds
-3   4              Reptiles
-4   5            Amphibians
-5   3                  Fish
-6  11       Vascular Plants
-7  12   Non-vascular Plants
-8   7  Crab/Lobsters/Shrimp
-9   9          Slugs/Snails
-10  6     Spiders/Scorpions
-11  8               Insects
-12 10 Other Non-vertebrates
-13 13                 Fungi
-14 14              Protozoa
-15 16             Chromista
-16 15              Bacteria
-17 17               Archaea}
+\item{categcode}{taxa groups code from \code{rnps::get_taxa_code()$Id}.\tabular{ll}{
+   Id \tab Name \cr
+   1 \tab Mammals \cr
+   2 \tab Birds \cr
+   3 \tab Fish \cr
+   4 \tab Reptiles \cr
+   5 \tab Amphibians \cr
+   6 \tab Spiders/Scorpions \cr
+   7 \tab Crab/Lobsters/Shrimp \cr
+   8 \tab Insects \cr
+   9 \tab Slugs/Snails \cr
+   10 \tab Other Non-vertebrates \cr
+   11 \tab Vascular Plants \cr
+   12 \tab Non-vascular Plants \cr
+   13 \tab Fungi \cr
+   14 \tab Protozoa \cr
+   15 \tab Bacteria \cr
+   16 \tab Chromista \cr
+   17 \tab Archaea \cr
+}}
 
-\item{searchlevel}{the level of search: 1: checklist; 2: full list; 3: full list with detaisl. Default is 3.}
+\item{searchlevel}{the level of search: 1: checklist; 2: full list; 3: full list with details. Default is 3.}
 }
 \description{
 get species list for one park from https://irma.nps.gov/NPSpecies/Search/SpeciesList

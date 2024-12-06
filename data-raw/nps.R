@@ -18,7 +18,7 @@ if(!file.exists("data/nps_plants.rda")){
   nps_plants = nps_plants[c("UnitCode", "SciName", "CommonNames", "Family", "Order", "Kingdom",
                           "RecordStatus", "Occurrence", "Abundance", "Nativeness", "NPSTags")]
 
-  devtools::use_data(nps_plants, compress = "xz", overwrite = T)
+  usethis::use_data(nps_plants, compress = "xz", overwrite = T)
 }
 
 if(!file.exists("data/nps_birds.rda")){
@@ -30,6 +30,6 @@ if(!file.exists("data/nps_birds.rda")){
   nps_birds = nps_birds[c("UnitCode", "SciName", "CommonNames", "Family", "Order", "Kingdom",
                           "RecordStatus", "Occurrence", "Abundance", "Nativeness", "NPSTags")]
 
-  devtools::use_data(nps_birds, compress = "xz", overwrite = T)
+  usethis::use_data(nps_birds, compress = "xz", overwrite = T)
 }
 
