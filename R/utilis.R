@@ -3,7 +3,7 @@
 #' nps_code = get_nps_code()
 #' @export
 get_nps_code = function(){
-  tibble::as.tibble(jsonlite::fromJSON("https://irma.nps.gov/NPSpecies/Lookup/GetAllUnits"))
+  tibble::as_tibble(jsonlite::fromJSON("https://irma.nps.gov/NPSpecies/Lookup/GetAllUnits"))
 }
 
 #' get code for taxa groups
@@ -66,5 +66,5 @@ get_one_park = function(parkcode = "ACAD", categcode = 11, searchlevel = 3){
     return()
   }
 
-  tibble::as.tibble(output)
+  tibble::as_tibble(output)
 }

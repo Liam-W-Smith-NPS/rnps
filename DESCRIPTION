@@ -18,4 +18,4 @@ Imports: RCurl,
     tibble,
     curl
 Suggests: testthat
-RoxygenNote: 6.0.1
+RoxygenNote: 7.3.2
