@@ -12,12 +12,12 @@ A data frame with variables such as: \code{SciName}, \code{CommonNames},
   abundance meta data available at \url{https://irma.nps.gov/NPSpecies/Lookup/GetAbundanceMetadata};
   NPS tag meta data available at \url{https://irma.nps.gov/NPSpecies/Lookup/GetNPSTagsMetadata};
   The number of columns depend on the search level you defined.
-  Last updated 12/06/2024.
 }
 \usage{
 nps_plants
 }
 \description{
-Species list of vascular plants for all available 304 NPS units.
+Species list of vascular plants for all available 308 NPS units.
+Last updated 12/06/2024.
 }
 \keyword{datasets}
